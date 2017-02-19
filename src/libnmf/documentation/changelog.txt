@@ -1,0 +1,38 @@
+  libNMF - University of Vienna, Austria
+								      18.01.2011
+##############################################################################################################################################
+##############################################################################################################################################
+
+Version			Changes
+##############################################################################################################################################
+
+1.02			* First public version of libNMF
+
+
+1.03 Beta		* Single precision version of all driver and computatioinal routines
+
+			* Additional initialization strategies
+			
+				init_infogain		using information gain of classified data
+
+				init_gainratio		using information gain ratio for each attribute
+
+			* Additional NMF algorithms
+
+				nmf_bayes		Iterated conditional mode NMF [1], unoptimized
+
+				nmf_fast		Fast NMF [2], unoptimized
+
+
+
+
+
+##############################################################################################################################################
+##############################################################################################################################################
+
+References
+##############################################################################################################################################
+
+[1] Mikkel N. Schmidt, Ole Winther, and Lars Kai Hansen, Bayesian non-negative matrix factorization, Independent Component Analysis and Signal Separation, International Conference on, 2009
+
+[2] Mikkel N. Schmidt, FastNMF, www.mikkelschmidt.dk

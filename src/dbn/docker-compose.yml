@@ -1,0 +1,11 @@
+version: '2'
+services:
+  theano:
+    image: app:latest
+    build: .
+    environment:
+      PORT: 8888
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/code
